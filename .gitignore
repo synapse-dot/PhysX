@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environment
+venv/
+.env/
+
+# OS files
+.DS_Store
+desktop.ini
+
+# Logs and run artifacts
+*.log
+runlog*.txt
+capture_log*.txt
+capture_gif*.txt
+screenshot.png
+demo.gif
+frame_t*.png
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc
+*.bak
