@@ -28,12 +28,12 @@ jobs:
           QT_QPA_PLATFORM: offscreen
         run: |
           python - << 'PY'
-import sys
-try:
-    import app
-    print('Import OK')
-except Exception:
-    import traceback
-    traceback.print_exc()
-    sys.exit(1)
-PY
+          import sys
+          try:
+              import app
+              print('Import OK')
+          except Exception:
+              import traceback
+              traceback.print_exc()
+              sys.exit(1)
+          PY
